@@ -1,0 +1,30 @@
+body {
+  color: #ffffff;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#chord-diagram-container .label {
+  font: 1.2em;
+}
+
+svg text{
+  fill:grey;
+  font-size:11px;
+}
+svg .values text{
+  pointer-events:none;
+  stroke-width: 0.5px;
+}
+.groups:hover{
+  cursor:pointer;
+  font-weight:bold;
+}
+
+#fork-me-on-github-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    z-index: 9999;
+}
